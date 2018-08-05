@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Atwix Team
+ * @copyright Copyright (c) 2018 Atwix (https://www.atwix.com/)
+ * @package Atwix_CustomCacheContext
+ */
+-->
+<!-- File: app/code/Atwix/CustomCacheContext/etc/di.xml -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\App\Http\Context">
+        <plugin name="atwix_country_cache_context_plugin"
+                type="Atwix\CustomCacheContext\Plugin\CustomerCountryCacheContextPlugin" />
+    </type>
+</config>

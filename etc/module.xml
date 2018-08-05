@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Atwix Team
+ * @copyright Copyright (c) 2018 Atwix (https://www.atwix.com/)
+ * @package Atwix_CustomCacheContext
+ */
+-->
+<!-- File: app/code/Atwix/CustomCacheContext/etc/module.xml -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Atwix_CustomCacheContext" setup_version="1.0.0">
+        <sequence>
+            <module name="Magento_Sales"/>
+        </sequence>
+    </module>
+</config>
